@@ -77,11 +77,6 @@ export const gui = async (args: string[]): Promise<string> => {
   return `Opening other portfolio...`;
 };
 
-export const bing = async (args: string[]): Promise<string> => {
-  window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
-};
-
 export const reddit = async (args: string[]): Promise<string> => {
   window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
   return `Searching reddit for ${args.join(' ')}...`;
@@ -125,8 +120,13 @@ export const nvim = async (args: string[]): Promise<string> => {
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
+  return `you know what? just use 'vscode'.`;
 };
+
+export const vscode = async (args?: string[]): Promise<string> => {
+  window.open(`https://vscode.dev`)
+  return `i like vscode too!`;
+}
 
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
