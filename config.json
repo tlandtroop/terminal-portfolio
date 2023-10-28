@@ -1,6 +1,6 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/tlandtroop/tlandtroop/master/README.md",
-  "title": "My Portfolio",
+  "title": "Tyler Landtroop | Home",
   "name": "Tyler Landtroop",
   "ascii": "tlandtroop",
   "social": {
@@ -11,6 +11,7 @@
   "ps1_hostname": "troopla.dev",
   "ps1_username": "guest",
   "repo": "https://github.com/tlandtroop/terminal-portfolio",
+  "gui": "https://tlandtroop.vercel.app",
   "resume_url": "https://drive.google.com/file/d/1E7j-FERj0fefXUta-2UNGdj6Gx8C-mcu/view?usp=sharing",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",

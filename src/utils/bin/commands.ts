@@ -72,6 +72,11 @@ export const duckduckgo = async (args: string[]): Promise<string> => {
   return `Searching duckduckgo for ${args.join(' ')}...`;
 };
 
+export const gui = async (args: string[]): Promise<string> => {
+  window.open(`https://tlandtroop.vercel.app`);
+  return `Opening other portfolio...`;
+};
+
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
   return `Wow, really? You are using bing for ${args.join(' ')}?`;
@@ -142,5 +147,6 @@ export const banner = (args?: string[]): string => {
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type 'gui' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.gui}" target="_blank">here</a></u> for my other portfolio.
 `;
 };
