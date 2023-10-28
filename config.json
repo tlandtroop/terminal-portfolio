@@ -1,30 +1,30 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://raw.githubusercontent.com/tlandtroop/tlandtroop/master/README.md",
+  "title": "My Portfolio",
+  "name": "Tyler Landtroop",
+  "ascii": "tlandtroop",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "tlandtroop",
+    "linkedin": "tylerlandtroop"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "email": "landtroopt@email.com",
+  "ps1_hostname": "term.tlandtroop.com",
+  "ps1_username": "guest",
+  "repo": "https://github.com/tlandtroop/terminal-portfolio",
+  "resume_url": "https://drive.google.com/file/d/1E7j-FERj0fefXUta-2UNGdj6Gx8C-mcu/view?usp=sharing",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
     "patreon": "https://patreon.com/cveinnt"
   },
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
+      "background": "#E5E9F0",
+      "foreground": "#2E3440",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
     },
     "dark": {
       "background": "#2E3440",
