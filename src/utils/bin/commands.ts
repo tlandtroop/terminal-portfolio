@@ -73,7 +73,7 @@ export const duckduckgo = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open(`https://tlandtroop.vercel.app`);
+  window.open(`https://troopla.dev`);
   return `Opening other portfolio...`;
 };
 
@@ -124,9 +124,9 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const vscode = async (args?: string[]): Promise<string> => {
-  window.open(`https://vscode.dev`)
+  window.open(`https://vscode.dev`);
   return `i like vscode too!`;
-}
+};
 
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
