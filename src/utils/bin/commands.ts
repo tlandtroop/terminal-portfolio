@@ -73,7 +73,7 @@ export const duckduckgo = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open(`https://troopla.dev`);
+  window.open(`https://portfolio-tlandtroop.vercel.app`);
   return `Opening other portfolio...`;
 };
 
