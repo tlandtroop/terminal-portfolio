@@ -1,5 +1,9 @@
 import * as bin from "./bin";
 
+type CommandFunction = (args: string[]) => Promise<string>;
+type BinKeys = keyof typeof bin;
+type ShellCommands = BinKeys | "clear";
+
 export const shell = async (
   command: string,
   setHistory: (value: string) => void,
@@ -7,18 +11,20 @@ export const shell = async (
   setCommand: React.Dispatch<React.SetStateAction<string>>
 ) => {
   const args = command.split(" ");
-  args[0] = args[0].toLowerCase();
+  const cmd = args[0].toLowerCase() as ShellCommands;
 
-  if (args[0] === "clear") {
-    clearHistory();
-  } else if (command === "") {
+  if (command === "") {
     setHistory("");
-  } else if (Object.keys(bin).indexOf(args[0]) === -1) {
+  } else if (cmd === "clear") {
+    clearHistory();
+  } else if (!Object.prototype.hasOwnProperty.call(bin, cmd)) {
     setHistory(
       `shell: command not found: ${args[0]}. Try 'help' to get started.`
     );
   } else {
-    const output = await bin[args[0]](args.slice(1));
+    const output = await (bin[cmd as BinKeys] as CommandFunction)(
+      args.slice(1)
+    );
     setHistory(output);
   }
 
