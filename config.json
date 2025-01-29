@@ -1,0 +1,36 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/tlandtroop/tlandtroop/master/README.md",
+  "title": "Tyler Landtroop | Home",
+  "name": "Tyler Landtroop",
+  "ascii": "tlandtroop",
+  "social": {
+    "github": "tlandtroop",
+    "linkedin": "tylerlandtroop"
+  },
+  "email": "landtroopt@email.com",
+  "commandPromptHostname": "landtroopt",
+  "commandPromptUsername": "guest",
+  "repo": "https://github.com/tlandtroop/terminal-portfolio",
+  "gui": "https://portfolio-tlandtroop.vercel.app",
+  "resumeUrl": "/assets/resume.pdf",
+  "colors": {
+    "light": {
+      "background": "#E5E9F0",
+      "foreground": "#2E3440",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
